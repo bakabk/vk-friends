@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+
+<!--<script src="https://vk.com/js/api/openapi.js"></script>-->
+<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+<script type="text/javascript">
+    function start() {
+        console.log('1111');
+        VK.init(function() {
+            // API initialization succeeded
+            // Your code here
+        }, function() {
+            // API initialization failed
+            // Can reload page here
+        }, '5.131');
+    }
+
+    window.onload = start;
+</script>
+<!--<script>-->
+<!--/*-->
+<!--Создать приложение для ВКонтакте, которое загружает список ваших друзей и выводит их на страницу в следующем формате:-->
+<!--Фото, ФИО, Возраст, Дата рождения.-->
+<!--Друзья должны быть отсортированы по дате рождения в порядке убывания. То есть на самом верху списка расположен друг с-->
+<!--ближайший датой рождения.-->
+<!--Использование шаблонизатора приветствуется.-->
+<!--/*-->
+<!--Сверстать плеер для музыки в VK-->
+<!--*/-->
+<!--/*Модифицировать плеер (ссылка на плеер в соответствующем канале слака) таким образом,-->
+<!--чтобы с прогресс-баром можно было взаимодействовать.-->
+<!--При клике - «перематывать» композицию на указанную позицию*/-->
+<!--*/-->
+<!--const apiVersion = '5.131';-->
+
+<!--function onSuccess() {-->
+<!--    console.log('onSuccess');-->
+<!--}-->
+
+<!--function onFail() {-->
+<!--    console.log('onFail');-->
+<!--}-->
+
+<!--VK.init(onSuccess, onFail, apiVersion);-->
+<!--</script>-->
+
+</html>

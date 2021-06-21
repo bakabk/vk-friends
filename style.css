@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.friends-list {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.friends-list__wrapper {
+    margin: 10px 20px;
+    padding: 0 10px;
+    width: 100px;
+    height: auto;
+}
+
+.friends-list__avatar {
+    width: 100%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.friends-list__title {
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.friends-list__age-block {
+    margin-top: 5px;
+}
